@@ -51,7 +51,7 @@ If you prefer local installation:
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/HistAI/datahub.git
+   git clone https://github.com/histai/datahub.git
    cd datahub
    ```
 
@@ -67,7 +67,7 @@ Codex automatically detects skills via the `agents/AGENTS.md` file.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/HistAI/datahub.git
+   git clone https://github.com/histai/datahub.git
    cd datahub
    ```
 
@@ -89,12 +89,12 @@ This repository includes `gemini-extension.json` for Gemini CLI integration.
 
 1. **Install from GitHub:**
    ```bash
-   gemini extensions install https://github.com/HistAI/datahub.git --consent
+   gemini extensions install https://github.com/histai/datahub.git --consent
    ```
 
    Or install locally:
    ```bash
-   git clone https://github.com/HistAI/datahub.git
+   git clone https://github.com/histai/datahub.git
    cd datahub
    gemini extensions install . --consent
    ```
