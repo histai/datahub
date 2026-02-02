@@ -10,14 +10,9 @@
     "plugins": [
         {
             "name": "cohort-builder",
-            "version": "1.0.0",
-            "description": "Search pathology cases by diagnosis, organ, age, and stains. Filter datasets, build research cohorts, and export whole slide images with comprehensive metadata.",
-            "author": {
-                "name": "HistAI",
-                "email": "sales@hist.ai"
-            },
             "source": ".",
-            "category": "research",
+            "description": "Search pathology cases by diagnosis, organ, age, and stains. Filter datasets, build research cohorts, and export whole slide images with comprehensive metadata.",
+            "version": "1.0.0",
             "strict": false
         }
     ]
