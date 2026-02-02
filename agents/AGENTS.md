@@ -7,7 +7,7 @@ This file provides skill definitions for OpenAI Codex and other agents that supp
 ## Cohort Builder
 
 **Skill ID:** `cohort_builder`  
-**Path:** `skills/cohort_builder/Skill.md`
+**Path:** `skills/cohort_builder/SKILL.md`
 
 ### Description
 

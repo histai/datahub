@@ -32,7 +32,7 @@ This repository is compatible with **Claude Code**, **OpenAI Codex**, and **Gemi
 
 2. **Install the Cohort Builder skill:**
    ```
-   /plugin install cohort_builder@HistAI/datahub
+   /plugin install cohort-builder@HistAI/datahub
    ```
 
 3. **Configure your API key:**
@@ -59,7 +59,7 @@ If you prefer local installation:
    ```
    /plugin add-local
    ```
-   Point to the `skills/cohort_builder/Skill.md` file.
+   Point to the `skills/cohort_builder/SKILL.md` file.
 
 ### OpenAI Codex
 
@@ -116,7 +116,7 @@ See [Gemini CLI extensions docs](https://geminicli.com/docs/extensions/#installi
 
 Search pathology cases by diagnosis, organ, age, and stains. Filter datasets (benign/malignant, cancer types), build research cohorts, and export whole slide images with clinical and technical metadata.
 
-**Full documentation:** [`skills/cohort_builder/Skill.md`](skills/cohort_builder/Skill.md)
+**Full documentation:** [`skills/cohort_builder/SKILL.md`](skills/cohort_builder/SKILL.md)
 
 ## Repository Structure
 
@@ -128,7 +128,7 @@ datahub/
 │   └── AGENTS.md                 # OpenAI Codex skill definitions
 ├── skills/
 │   └── cohort_builder/
-│       └── Skill.md              # Main skill documentation
+│       └── SKILL.md              # Main skill documentation
 ├── gemini-extension.json         # Gemini CLI extension configuration
 └── README.md                     # This file
 ```
@@ -143,7 +143,7 @@ datahub/
 
 For issues, custom data requests, or enterprise inquiries:
 - 📧 **Sales:** sales@hist.ai
-- 📚 **Documentation:** [skills/cohort_builder/Skill.md](skills/cohort_builder/Skill.md)
+- 📚 **Documentation:** [skills/cohort_builder/SKILL.md](skills/cohort_builder/SKILL.md)
 - 🌐 **Platform:** [https://celldx.hist.ai](https://celldx.hist.ai)
 
 ## Data Licensing
