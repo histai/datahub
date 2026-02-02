@@ -27,12 +27,12 @@ This repository is compatible with **Claude Code**, **OpenAI Codex**, and **Gemi
 
 1. **Register this repository as a plugin marketplace:**
    ```
-   /plugin marketplace add HistAI/datahub
+   /plugin marketplace add histai/datahub
    ```
 
 2. **Install the Cohort Builder skill:**
    ```
-   /plugin install cohort-builder@HistAI/datahub
+   /plugin install cohort-builder@histai/datahub
    ```
 
 3. **Configure your API key:**
