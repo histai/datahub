@@ -1,17 +1,15 @@
-# HistAI Pathology Datahub
+# HistAI Skillsets
 
-A skills repository providing clean and secure integration between AI coding agents (Claude Code, OpenAI Codex, Gemini CLI) and the HistAI Whole Slide Image Data Hub.
+A skills repository providing clean and secure integration between AI coding agents (Claude Code, OpenAI Codex, Gemini CLI) and the HistAI computational pathology platform — covering the Whole Slide Image Data Hub, the CellDX AI Autopilot model trainer, training job monitoring, and slide-level AI analysis.
 
 ## Overview
 
-This repository provides:
-- 🔍 **Search pathology cases** by diagnosis, organ, age, stains, and clinical criteria
-- 📊 **Build research cohorts** for machine learning and clinical studies  
-- 💾 **Export whole slide images (WSI)** with comprehensive metadata
-- 🤖 **Train slide classification models** on Azure GPU compute
-- 📈 **Monitor training jobs** with real-time metrics and iterative adjustment
-- 🧪 **Upload your own WSIs and run AI widgets** on them (public or custom), retrieving annotations and segmentation masks
-- 💰 **Manage costs** with volume-based pricing and selective slide downloads
+This repository bundles four complementary skills:
+
+- 🔬 **Cohort Builder (Data Hub)** — search pathology cases by diagnosis, organ, age, stains, and clinical criteria; build research cohorts; export whole slide images (WSI) with comprehensive metadata; manage costs with volume-based pricing and selective slide downloads.
+- 🤖 **CellDX AI Autopilot (Model Trainer)** — submit slide classification training jobs on Azure GPU compute, with a full pipeline (parameter tuning → multi-strategy comparison → best model → deployment) and a quick mode for fast single-model iteration.
+- 📈 **Training Monitor** — monitor running training jobs with real-time epoch-by-epoch metrics, stop/adjust/resume training, compare strategy results, and deploy trained models as widgets.
+- 🧪 **Slide Analyzer** — upload your own WSIs to "My Cases", install AI widgets (public store or custom-trained), run them on slides, and retrieve results including segmentation masks.
 
 ## Security & Access Requirements
 
@@ -126,7 +124,7 @@ Search pathology cases by diagnosis, organ, age, and stains. Filter datasets (be
 
 **Full documentation:** [`skills/cohort_builder/SKILL.md`](skills/cohort_builder/SKILL.md)
 
-### 🤖 AI Model Trainer
+### 🤖 CellDX AI Autopilot (Model Trainer)
 
 Submit slide classification training jobs on Azure GPU compute. Supports a full pipeline (parameter tuning → multi-strategy comparison → best model → deployment) and quick mode for fast single-model iteration.
 
